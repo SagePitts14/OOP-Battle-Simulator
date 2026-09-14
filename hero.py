@@ -8,6 +8,8 @@ class Hero:
         self.health = 150
         self.attack_power = 25
 
+
+
     def attack(self):
         """Return a random amount of damage."""
         return random.randint(1, self.attack_power)
