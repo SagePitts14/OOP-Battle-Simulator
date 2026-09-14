@@ -15,7 +15,7 @@ goblin = Goblin("D0rian")
     
 
 
-goblin2 = Goblin("Ahstung")
+goblin2 = Goblin("Astung")
     
 print(f"{goblin.name} enters the arena with {goblin.health} health.")
 print(f"{goblin2.name} enters the arena with {goblin2.health} health.")
