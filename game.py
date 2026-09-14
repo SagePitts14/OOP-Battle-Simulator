@@ -10,14 +10,18 @@ def main():
     print("༼ ᓄºل͟º ༽ᓄ   ᕦ(ò_óˇ)ᕤ")
     print("The gates are opening...")
 
-    goblin = Goblin("D0rian")
+goblin = Goblin("D0rian")
 
-    print(f"{goblin.name} enters the arena with {goblin.health} health.")
-    print("But no hero has answered the call... yet.")
-
-    goblin = Goblin("Ahstung")
     
-    print(f"{goblin.name} enters the arena with {goblin.health} health.")
+
+
+goblin2 = Goblin("Ahstung")
+    
+print(f"{goblin.name} enters the arena with {goblin.health} health.")
+print(f"{goblin2.name} enters the arena with {goblin2.health} health.")
+print("But no hero has answered the call... yet.")
+
+   
 
 
 if __name__ == "__main__":
