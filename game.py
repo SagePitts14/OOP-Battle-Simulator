@@ -1,6 +1,7 @@
 from goblin import Goblin
 from hero import Hero
 from wizard import Wizard
+from boss import Boss
 ARENA_NAME = "The Trip T Tower"
 
 def  battle(hero: Hero, enemy: Goblin):
@@ -42,7 +43,8 @@ print(f"But {hero.name} has answered the call")
 battle(hero,goblin)
 battle(hero,goblin2)
 
-
+bossguy = Boss("Devin")
+battle(hero, bossguy)
 
 if __name__ == "__main__":
     main()
